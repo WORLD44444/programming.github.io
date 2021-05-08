@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;600&display=swap');
+h1 {
+    border: 3px solid white;
+}
+p {
+    border: 3px solid white;
+}
+div.navigation{
+    background-color: #5a5a5a; 
+    height:140px;
+
+    padding-left: 50px;
+    padding-right: 50px;
+
+    display: flex;
+    flex-direction: row;
+}
+div.navigation button {
+    background-color: #00000000;
+    border: 0px;
+
+    color: white;
+    height: inherit;
+    width: 600px;
+    text-align: center;
+}
+div.navigation img {
+    align-self: center;
+    height: 100px;
+    padding-right: 60px;
+    padding-left: 60px;
+
+    /*filter: invert(100%) sepia(0%) saturate(18%) hue-rotate(314deg) brightness(106%) contrast(104%);*/
+}
+div.navigation button:hover {
+    /*마우스 커서를 가져다 댔을 때 변화 */
+    background-color: #525252;
+    color: yellow;
+}
