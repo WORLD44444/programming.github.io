@@ -1,9 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;600&display=swap');
-h1 {
-    border: 3px solid white;
-}
-p {
-    border: 3px solid white;
+
+div {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 200;
+    text-align: canter;
+
+    width: 100%;
+
+    border: 3px solid rgba(121, 120, 120, 0.541)
 }
 div.navigation{
     background-color: #5a5a5a; 
