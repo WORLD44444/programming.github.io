@@ -15,7 +15,6 @@ div.navigation{
 
     padding-left: 50px;
     padding-right: 50px;
-
     display: flex;
     flex-direction: row;
 }
@@ -60,7 +59,7 @@ div.navigation button:hover {
 
 #book1 .page {
     background-color: white;
-    padding: 20px;
+    height: fit-content;
     margin-top: 20px;
 
     /* height: 150px; */
@@ -69,11 +68,13 @@ div.navigation button:hover {
 
 #book1 {
     background-color: #6c727c;
+    padding: 5px;
+    height: fit-content;
 }
 
 .프로그래밍 {
     background-color: white;
-    padding: 10px;
+    height: fit-content;
     margin-top: 10px;
     box-shadow: 2px 1px 5px 0px #AAAAAA;
 }
