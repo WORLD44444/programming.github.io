@@ -29,10 +29,9 @@ div.navigation button {
 }
 div.navigation img {
     align-self: center;
-    height: 100px;
-    padding-right: 60px;
-    padding-left: 60px;
-
+    width: 10%;
+    height: 60px;
+    object-fit: cover;
     /*filter: invert(100%) sepia(0%) saturate(18%) hue-rotate(314deg) brightness(106%) contrast(104%);*/
 }
 div.navigation button:hover {
@@ -68,7 +67,7 @@ div.navigation button:hover {
 
 #book1 {
     background-color: #6c727c;
-    padding: 20px;
+    padding: 50px;
     height: fit-content;
 }
 
@@ -79,10 +78,6 @@ div.navigation button:hover {
     box-shadow: 2px 1px 5px 0px #AAAAAA;
 }
 
-.navigation img {
-    width: fit-content;
-    height: fit-content;
-}
 
 .navigation button {
     font-weight: 100;
